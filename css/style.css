@@ -1,32 +1,78 @@
-a{
+.logo {
+    max-width: 147px;
+    max-height: 21px;
+    display: inline-block;
+    padding: 13.489px;
+    align-items: center;
+    margin: 12px 80px;
+}
+.menu{
     color: #323232;
+    display: inline-block;
     font-size: 18px;
     font-weight: 400;
+    text-align: center;
+    padding: 12px 80px;
+    align-items: center;
+    max-width: 1140px;
+}
+ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+a{
     text-decoration: none;
 }
-.contactus{
-    padding: 8px 16px;
-    text-align: center;
-    border: 1px solid #AC00FF;
-    border-radius: 8px;
-    background-color: #E9D7FE;
+.contact{
+    display: inline-block;
     color: #AC00FF;
-    font-size: 14px;
-    font-weight: 500;
-    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #AC00FF;
+    background: #E9D7FE;
+    padding: 8px 16px;
+    align-items: center;
+    
+}
+header{
+    max-width: 1140px;
+    padding: 12px 80px;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    max-width: 980px;
+    align-items: center;
+}
+.center{
+    max-width: 841px;
+    margin: auto;
 }
 h1{
     max-width: 720px;
     color: #323232;
-    font-size: 62px;
+    font-size: 64px;
     font-weight: 400;
     line-height: 74px;
+    margin-bottom: 24px;
 }
 p{
-    max-width: 841px;
-    max-height: 64px;
     color: #323232;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
+    margin-bottom: 24px;
+}
+.joinnow{
+    max-width: 204px;
+    border-radius: 8px;
+    background: #5C3BAE;
+    padding: 16px 24px;
+    align-items: center;
+    color: #FFFFFF;
+}
+.watch{
+    display: inline-block;
+}
+.group{
+    align-items: center;
 }
