@@ -6,6 +6,7 @@
     max-height: 21px;
     display: inline-block;
     align-items: center;
+    margin-right: 80px;
 }
 .menu{
     color: #323232;
@@ -14,6 +15,7 @@
     font-weight: 400;
     text-align: center;
     padding-right: 80px;
+    margin-right: 80px;
     align-items: center;
     max-width: 1140px;
 }
