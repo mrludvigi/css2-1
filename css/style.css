@@ -1,10 +1,11 @@
+* {
+    box-sizing: border-box;
+  }
 .logo {
     max-width: 147px;
     max-height: 21px;
     display: inline-block;
-    padding: 13.489px;
     align-items: center;
-    margin: 12px 80px;
 }
 .menu{
     color: #323232;
@@ -12,7 +13,7 @@
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-    padding: 12px 80px;
+    padding-right: 80px;
     align-items: center;
     max-width: 1140px;
 }
@@ -37,11 +38,9 @@ header{
     max-width: 1140px;
     padding: 12px 80px;
     align-items: center;
-    text-align: center;
 }
 .container{
     max-width: 980px;
-    align-items: center;
 }
 .center{
     max-width: 841px;
