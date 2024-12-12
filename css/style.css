@@ -1,3 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/impact');
+@import url('https://fonts.cdnfonts.com/css/inria-sans');
+@import url(' https://fonts.cdnfonts.com/css/inter ');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +10,7 @@
   header{
     max-width: 1140px;
     width: 100%;
-    padding: 12px 80px;
+    margin: 12px 80px;
     margin-bottom: 76px;
   }
   .headerContainer{
@@ -14,23 +18,21 @@
     width: 100%;
   }
   .logo{
-    max-width: 173.66px;
-    width: 100%;
     display: inline-block;
     vertical-align: middle;
     padding: 13.489px;
     align-items: center;
   }
   .navigation{
+    font-family: 'Inter', sans-serif;
     vertical-align: middle;
     display: inline-block;
-    margin-left: 179.17px;
-    margin-right: 179.17px;
+    margin-left: 150.17px;
+    margin-right: 150.17px;
   }
   .contact_us{
+    font-family: 'Inter', sans-serif;
     vertical-align: middle;
-    max-width: 105px;
-    width: 100%;
     border-radius: 8px;
     padding: 8px 16px;
     background: #E9D7FE;
@@ -38,7 +40,11 @@
     font-size: 14px;
     font-weight: 500;
     border: 1px solid #AC00FF;
+  }
+  .contact_us a{
+    text-decoration: none;
     color: #AC00FF;
+
   }
   .navigation a{
     text-decoration: none;
@@ -55,6 +61,7 @@
   }
 
   .mainContainer h1{
+    font-family: 'Impact', sans-serif;
     margin-bottom: 24px;
     max-width: 720px;
     width: 100%;
@@ -64,6 +71,7 @@
     line-height: 74px;
   }
   .mainContainer p{
+    font-family: 'Inria Sans', sans-serif;
     margin-bottom: 24px;
     max-width: 841px;
     width: 100%;
@@ -73,14 +81,15 @@
     line-height: 32px;
   }
   .joinNow{
+    font-family: 'Inter', sans-serif;
     text-decoration: none;
     max-width: 204px;
-    width: 100%;
     padding: 16px 24px;
     align-items: center;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
+    line-height: 21.78px;
     background: #5C3BAE;
     border-radius: 8px;
     border: 1px solid #5C3BAE;
@@ -94,12 +103,17 @@
     margin-left: 24px;
   }
   .watch{
+    font-family: 'Inter', sans-serif;
     vertical-align: middle;
     color: #4D3491;
+    text-decoration: underline;
     font-size: 18px;
     font-weight: 500;
+    line-height: 21.78px;
   }
   .buttonJoin{
+    max-width: 422px;
+    width: 100%;
     margin-top: 24px;
     display: inline-block;
   }
